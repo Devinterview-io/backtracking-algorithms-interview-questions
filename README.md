@@ -1,6 +1,6 @@
 # 🖲 Essential Backtracking interview questions (answered) for developers in 2021
 
-Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution. Check our list of essential Backtracking Algorithm interview questions and answers that will trend on tech interviews in 2021.
+Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution. Check our list of essential Backtracking Algorithm interview questions and answers that will trend on data structures interviews in 2021.
 
 </br>
 
@@ -45,4 +45,4 @@ The function will be called recursively and will be stored in call stack for all
 
 <br />
 
-> You can also find more data structures interview questions here 👉🏼 https://devinterview.io/data/backtracking-interview-questions
+> You can also find more data structures interview questions here 👉🏼 https://devinterview.io/data/
