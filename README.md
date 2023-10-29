@@ -1,48 +1,214 @@
-# 🖲 Essential Backtracking interview questions (answered) for developers in 2021
+# ⚫ Backtracking in 2024 Tech Interviews: 6 Key Questions & Answers
 
-Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution. Check our list of essential Backtracking Algorithm interview questions and answers that will trend on data structures interviews in 2021.
+**Backtracking** is an algorithmic technique for solving problems incrementally by exploring all possible solutions. This topic often surfaces in coding interviews, when testing the knowledge of **data structures** and **algorithms**.
 
-</br>
+Check out our carefully selected list of **basic** and **advanced** Backtracking questions and answers to be well-prepared for your tech interviews in 2024.
 
-<p align="center">
-  <a href="https://devinterview.io/">
-  <img src="https://source.unsplash.com/collection/52661698/600x300">
-  </a>
-</p>
+![Backtracking Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/backtracking.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698599087&Signature=jlTV7iUsTtiTYrAv4Rx48a0v4Rj7vE61hho7KPCY71vFIXXmib%2BeFJ%2BGvt8VmNl%2F539SZPFeRpDYgClWlTpPLdLI%2B8CTiSJzLMOvkwc7fYGeh7cbVbnLAelBzfG1Hv1sG%2FDmw%2BmV%2BC2N%2FXc3nfuQmCiRYrmIS9C%2BEoPEVL5ffT%2FqHPy%2BBwMfYXLpIgypswit6yNUebm9X0chj4nmEIvuybtbJjvHQpc54PL1osQhaU7DrVK4iYTZVF1qkswW8nmoEdgQn7JW0FKT9qD7V%2FK5vcngxdyk6G4VPwims0%2FH5Ld%2FKoGBlH69HJ2YtctR%2BkI59uiFliVa6vhJJGrqXVRsSg%3D%3D)
 
-</br>
+👉🏼 You can also find all answers here: [Devinterview.io - Backtracking](https://devinterview.io/data/backtracking-interview-questions)
 
-> You can also find all answers here 👉🏼 https://devinterview.io/data/backtracking-interview-questions
+---
 
-</br>
+## 🔹 1. What is _Backtracking_?
 
-<div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 1. What is Backtracking?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Backtracking</strong> is a systematic way of trying out different sequences of decisions until we find one that "works." Backtracking does not generate all possible solutions first and checks later. It tries to generate a solution and as soon as even one constraint fails, the solution is rejected and the next solution is tried.</p><p>Backtracking can be understood as as searching os a tree for a particular "goal" leaf node. Backtracking in that case is a <strong>depth-first search</strong> with any bounding function. All solution using backtracking is needed to satisfy a complex set of constraints.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.javatpoint.com/backtracking-introduction" rel="noreferrer" target="_blank" title="What is Backtracking? Interview Questions Source To Answer">www.javatpoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 2. Why is this called Backtracking?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><ol><li>Using Backtracking you built a <strong>solution</strong> (that is a structure where every variable is assigned a value).</li><li>It is however possible that during construction, you realize that the solution is <strong>not successful</strong> (does not satisfy certain constraints), then you <strong>backtrack</strong>: you <em>undo</em> certain assignments of values to variables in order to reassign them.</li></ol><p>Like when looking for a book  because at first you check drawers in the first room, but it's not found, so you <em>backtrack</em> out of the first room to check the drawers in the next room. It's also called <strong>Trial &amp; Error</strong>.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/24372387/why-is-this-called-backtracking/24372493" rel="noreferrer" target="_blank" title="Why is this called Backtracking? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 3. What is Exhaustive Search?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Exhaustive Search</strong> is an algorithmic technique in which first all possible solutions are generated first and then we select the most feasible solution by applying some rules. Since it follows the most naive approach, it is a.k.a <strong>Brute-Force Search</strong>. This approach is one of the <strong>most expensive</strong> algorithmic techniques, mainly in terms of time complexity. It is also, therefore, one of the most <strong>naive</strong> ones.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://afteracademy.com/blog/what-is-backtracking" rel="noreferrer" target="_blank" title="What is Exhaustive Search? Interview Questions Source To Answer">afteracademy.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 4. What is the difference between Backtracking and Recursion?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><ul><li><strong>Recursion</strong> describes the calling of the <em>same function</em> that you are in. The typical example of a recursive function is the factorial. You always need a condition that makes recursion stop (base case). </li><li><strong>Backtracking</strong> is when the algorithm makes an opportunistic decision<sup>*</sup>, which may come up to be wrong. If the decision was wrong then the backtracking algorithm restores the state before the decision. It builds candidates for the solution and abandons those which cannot fulfill the conditions. A typical example for a task to solve would be the <em>Eight Queens Puzzle</em>. Backtracking is also commonly used within <em>Neuronal Networks</em>. Many times backtracking is not implemented recursively. If backtracking uses recursion its called <strong>Recursive Backtracking</strong></li></ul><p>P.S. <sup>*</sup> <strong>Opportunistic decision</strong> making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized <strong>without</strong> reference to any <strong>general plan</strong>.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.quora.com/What-is-the-difference-between-backtracking-and-recursion-What-are-some-examples" rel="noreferrer" target="_blank" title="What is the difference between Backtracking and Recursion? Interview Questions Source To Answer">www.quora.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 5. Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Depth First Traversal</strong> or <strong>Depth First Search</strong> is a <strong>edge based</strong> <em>recursive</em> algorithm for traversing (visiting) all the vertices of a graph or tree data structure using a <strong>stack</strong>. The purpose of the algorithm is to mark each vertex as visited while <em>avoiding</em> cycles. DFS traverse/visit each vertex exactly once and each edge is inspected exactly twice. DFS is a genuinely recursive algorithm that uses stack for <em>backtracking</em> purposes, not for storing the vertex discovery "front" (as is the case in BFS).</p><p>The <strong>DFS</strong> algorithm works as follows:</p><ul><li>Start by putting any one of the graph's vertices on top of a <strong>stack</strong>.</li><li>Take the top item of the stack and add it to the <strong>visited list</strong>.</li><li>Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top of the stack.</li><li>Keep repeating steps 2 and 3 until the stack is empty.</li></ul><p><strong>DFS example step-by-step</strong>:</p><ul><li>Considering A as the starting vertex which is explored and stored in the stack.</li><li>B successor vertex of A is stored in the stack.</li><li>Vertex B have two successors E and F, among them alphabetically E is explored first and stored in the stack.</li><li>The successor of vertex E, i.e., G is stored in the stack.</li><li>Vertex G have two connected vertices, and both are already visited, so G is popped out from the stack.</li><li>Similarly, E s also removed.</li><li>Now, vertex B is at the top of the stack, its another node(vertex) F is explored and stored in the stack.</li><li>Vertex F has two successor C and D, between them C is traversed first and stored in the stack.</li><li>Vertex C only have one predecessor which is already visited, so it is removed from the stack.</li><li>Now vertex D connected to F is visited and stored in the stack.</li><li>As vertex D doesn’t have any unvisited nodes, therefore D is removed.</li><li>Similarly, F, B and A are also popped.</li><li>The generated output is – A, B, E, G, F, C, D.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://techdifferences.com/difference-between-bfs-and-dfs.html" rel="noreferrer" target="_blank" title="Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? Interview Questions Source To Answer">techdifferences.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 6. What is the difference between Backtracking and Exhaustive Search techniques?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Backtracking</strong> is an algorithmic paradigm aimed at improving the time complexity of the <strong>exhaustive search</strong> technique if possible. Backtracking does not generate all possible solutions first and checks later. It tries to generate a solution and as soon as even one constraint fails, the solution is rejected and the next solution is tried.</p><p>Instead of exhaustive search the backtracking algorithm tries to construct a solution <em>incrementally</em>, one small piece at a time. It's a systematic way of trying out different sequences of decisions until we find one that works.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://afteracademy.com/blog/what-is-backtracking" rel="noreferrer" target="_blank" title="What is the difference between Backtracking and Exhaustive Search techniques? Interview Questions Source To Answer">afteracademy.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 7. Find all the Permutations of a String</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>permutation</strong>, also called an “arrangement number” or “order,” is a rearrangement of the elements of an ordered list S into a one-to-one correspondence with S itself (or in simple english: permutation is each of several possible ways in which a set or number of things can be ordered or arranged). A string of length <code>n</code> has <code>n!</code> permutation:</p><pre><code><span class="token cMod">ABC</span> <span class="token cComment">// original string (3)</span>
-<span class="token cMod">ABC</span> <span class="token cMod">ACB</span> <span class="token cMod">BAC</span> <span class="token cMod">BCA</span> <span class="token cMod">CBA</span> <span class="token cMod">CAB</span> <span class="token cComment">// permutations 3! = 6</span></code></pre><p>To print all permutations of a string use <em>backtracking</em> implemented via <em>recursion</em>:</p><ul><li>Try each of the letters in turn as the <em>first letter</em> and then find all the permutations of the <em>remaining letters</em> using a recursive call.</li><li>The <em>base case</em> is when the input is an empty string the only permutation is the empty string.</li><li>In other words, you simply traverse the tree, and when you reach the leaf you print the permutation. Then you backtrack one level up, and try another option. Moving one level up the tree is what we call the backtracking in this case.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div><div class="mb-2 mt-2"><span class="h5">Complexity Analysis</span></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Time:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text selected-complexity effect7">O(n!)</div></div></div></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Space:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text selected-complexity effect7">O(n!)</div></div></div></div><div class="hide-large"><p><b>Time:</b> <mark>O(n!)</mark></p><p><b>Space:</b> <mark>O(n!)</mark></p></div><div class="mt-3"><div><div class="AnswerBody"><p>For any given string of length <code>n</code> there are <code>n!</code> possible permutations, and we need to print all of them so Time complexity is <code>O(n * n!)</code>.
-The function will be called recursively and will be stored in call stack for all <code>n!</code> permutations, so Space complexity is <code>O(n!)</code>.</p></div></div></div></div><div style="font-size: 14px;"><div class="mb-3 mt-2"><span class="h5">Implementation</span></div><div><nav class="mdc-tab-bar"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll" style="margin-bottom: 0px;"><div class="mdc-tab-scroller__scroll-content"><button class="mdc-ripple-upgraded mdc-ripple-upgraded--background-focused mdc-tab mdc-tab--min-width mdc-tab--active" aria-selected="true" tabindex="0"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>JavaScript</span>&nbsp;<span class="shadow-text lang-badge js">JS</span></span></div><span class="mdc-tab-indicator mdc-tab-indicator--active"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded mdc-ripple-upgraded--background-focused"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Java</span>&nbsp;<span class="shadow-text lang-badge java">Java</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Python</span>&nbsp;<span class="shadow-text lang-badge py">PY</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button></div></div></div></nav></div><div class="mt-2"><div class="AnswerBody"><pre><code><span class="token cComment">// using backtracking</span>
-<span class="token cVar">let</span> <span class="token function-variable cMod">permute</span> <span class="token cBase">=</span> <span class="token cBase">(</span><span class="token parameter">str<span class="token cBase">,</span> left <span class="token cBase">=</span> <span class="token cNum">0</span><span class="token cBase">,</span> right <span class="token cBase">=</span> str<span class="token cBase">.</span>length <span class="token cBase">-</span> <span class="token cNum">1</span></span><span class="token cBase">)</span> <span class="token cBase">=&gt;</span> <span class="token cBase">{</span>
-  <span class="token cComment">//If left index is equal to right index</span>
-  <span class="token cComment">//Print the string permutation</span>
-  <span class="token cVar">if</span><span class="token cBase">(</span>left <span class="token cBase">==</span> right<span class="token cBase">)</span><span class="token cBase">{</span>
-    console<span class="token cBase">.</span><span class="token cMod">log</span><span class="token cBase">(</span>str<span class="token cBase">)</span><span class="token cBase">;</span>
-  <span class="token cBase">}</span><span class="token cVar">else</span><span class="token cBase">{</span>
-    <span class="token cVar">for</span><span class="token cBase">(</span><span class="token cVar">let</span> i <span class="token cBase">=</span> left<span class="token cBase">;</span> i <span class="token cBase">&lt;=</span> right<span class="token cBase">;</span> i<span class="token cBase">++</span><span class="token cBase">)</span><span class="token cBase">{</span>
-      <span class="token cComment">//Swap the letters of the string</span>
-      str <span class="token cBase">=</span> <span class="token cMod">swap</span><span class="token cBase">(</span>str<span class="token cBase">,</span> left<span class="token cBase">,</span> i<span class="token cBase">)</span><span class="token cBase">;</span>
-      <span class="token cComment">//Generate the permutation with swapped letters</span>
-      <span class="token cMod">permute</span><span class="token cBase">(</span>str<span class="token cBase">,</span> left<span class="token cBase">+</span><span class="token cNum">1</span><span class="token cBase">,</span> right<span class="token cBase">)</span><span class="token cBase">;</span>
-      <span class="token cComment">//Restore the letters back to their position, e.q. backtrack to prev state of the string</span>
-      str <span class="token cBase">=</span> <span class="token cMod">swap</span><span class="token cBase">(</span>str<span class="token cBase">,</span> left<span class="token cBase">,</span> i<span class="token cBase">)</span><span class="token cBase">;</span>
-    <span class="token cBase">}</span>
-  <span class="token cBase">}</span>
-<span class="token cBase">}</span>
+### Answer
 
-<span class="token cComment">//Function to swap the letters of the string</span>
-<span class="token cVar">let</span> <span class="token function-variable cMod">swap</span> <span class="token cBase">=</span> <span class="token cBase">(</span><span class="token parameter">str<span class="token cBase">,</span> left<span class="token cBase">,</span> right</span><span class="token cBase">)</span> <span class="token cBase">=&gt;</span> <span class="token cBase">{</span>
-  <span class="token cVar">let</span> arr <span class="token cBase">=</span> str<span class="token cBase">.</span><span class="token cMod">split</span><span class="token cBase">(</span><span class="token cString">''</span><span class="token cBase">)</span><span class="token cBase">;</span>
-  <span class="token cBase">[</span>arr<span class="token cBase">[</span>left<span class="token cBase">]</span><span class="token cBase">,</span> arr<span class="token cBase">[</span>right<span class="token cBase">]</span><span class="token cBase">]</span> <span class="token cBase">=</span> <span class="token cBase">[</span>arr<span class="token cBase">[</span>right<span class="token cBase">]</span><span class="token cBase">,</span> arr<span class="token cBase">[</span>left<span class="token cBase">]</span><span class="token cBase">]</span><span class="token cBase">;</span>
-  <span class="token cVar">return</span> arr<span class="token cBase">.</span><span class="token cMod">join</span><span class="token cBase">(</span><span class="token cString">''</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-given-string/4240098#4240098" rel="noreferrer" target="_blank" title="Find all the Permutations of a String Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 8. Explain what is Explicit and Implicit Backtracking Constrains?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><ul><li><strong>Explicit constraints</strong> are rules that restrict each <em>elements</em> (nodes) of <em>solution space</em> only from a given, predefined set (described by some <em>Explicit rules</em>)</li><li><strong>Implicit constraints</strong> describe the way in which the <em>elements</em> (nodes) of <em>solution space</em> must relate (depend) to <em>each other</em>.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="http://www.cs.umsl.edu/~sanjiv/classes/cs5130/lectures/bt.pdf" rel="noreferrer" target="_blank" title="Explain what is Explicit and Implicit Backtracking Constrains? Interview Questions Source To Answer">www.cs.umsl.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div></div>
+**Backtracking** is an algorithmic technique that uses a **depth-first search** approach to systematically build candidates for solutions. Each potential solution is represented as **nodes** in a **tree structure**.
 
-<br />
+If a particular pathway does not lead to a valid solution, the algorithm **reverts** or "backtracks" to a previous state. This strategy ensures a thorough exploration of the solution space by methodically traversing each branch of the tree.
 
-> You can also find more data structures interview questions here 👉🏼 https://devinterview.io/data/
+### Visual Representation
+
+![Backtracking](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/backtracking%2FBacktracking.webp?alt=media&token=e58d3beb-f432-4155-9fc3-fe03c8bb7edd)
+
+### Practical Applications
+
+1. **Sudoku Solvers**: Algorithms employ backtracking to determine valid number placements on the grid according to the game's rules.
+ 
+2. **Boggle Word Finders**: Systems utilize backtracking to identify all valid words from a grid of letters in the Boggle game.
+
+3. **Network Router Configuration**: Optimal configurations in complex networks, like routes and bandwidth allocations, are determined using backtracking.
+
+4. **University Timetable Scheduling**: Backtracking aids in efficiently scheduling university courses, minimizing overlaps and optimizing resource usage.
+
+5. **Interactive Storytelling in VR**: In virtual reality games, backtracking navigates and selects optimal story paths based on user decisions, ensuring a cohesive narrative.
+
+### Code Example: N-Queens Problem
+
+Place $N$ queens on an $N \times N$ chessboard such that none threaten another.
+
+Here is the Python code:
+
+```python
+def is_valid(board, row, col):
+    for i in range(row):
+        if board[i] in [col, col - (row - i), col + (row - i)]:
+            return False
+    return True
+
+def place_queen(board, row):
+    n = len(board)
+    if row == n:
+        return True
+    
+    for col in range(n):
+        if is_valid(board, row, col):
+            board[row] = col
+            if place_queen(board, row + 1):
+                return True
+            board[row] = -1  # Backtrack
+    return False
+
+def solve_n_queens(n):
+    board = [-1] * n
+    if place_queen(board, 0):
+        print("Solution exists:")
+        print(board)
+    else:
+        print("No solution exists.")
+
+solve_n_queens(4)
+```
+
+The `is_valid` function evaluates queen placement validity, while `place_queen` recursively attempts to place all $N$ queens, backtracking when necessary.
+
+---
+
+## 🔹 2. Explain the _Depth-First Search_ (DFS) algorithm.
+
+### Answer
+
+**Depth-First Search** (DFS) is a graph traversal algorithm that's simpler and **often faster** than its breadth-first counterpart (BFS). While it **might not explore all vertices**, DFS is still fundamental to numerous graph algorithms.
+
+### Algorithm Steps
+
+1. **Initialize**: Select a starting vertex, mark it as visited, and put it on a stack.
+2. **Loop**: Until the stack is empty, do the following:
+   - Remove the top vertex from the stack.
+   - Explore its unvisited neighbors and add them to the stack.
+3. **Finish**: When the stack is empty, the algorithm ends, and all reachable vertices are visited.
+
+### Visual Representation
+
+![DFS Example](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/graph-theory%2Fdepth-first-search.jpg?alt=media&token=37b6d8c3-e5e1-4de8-abba-d19e36afc570)
+
+### Code Example: Depth-First Search
+
+Here is the Python code:
+
+```python
+def dfs(graph, start):
+    visited = set()
+    stack = [start]
+    
+    while stack:
+        vertex = stack.pop()
+        if vertex not in visited:
+            visited.add(vertex)
+            stack.extend(neighbor for neighbor in graph[vertex] if neighbor not in visited)
+    
+    return visited
+
+# Example graph
+graph = {
+    'A': {'B', 'G'},
+    'B': {'A', 'E', 'F'},
+    'G': {'A'},
+    'E': {'B', 'G'},
+    'F': {'B', 'C', 'D'},
+    'C': {'F'},
+    'D': {'F'}
+}
+
+print(dfs(graph, 'A'))  # Output: {'A', 'B', 'C', 'D', 'E', 'F', 'G'}
+```
+
+---
+
+## 🔹 3. What is the difference between _Backtracking_ and _Recursion_?
+
+### Answer
+
+**Backtracking** often employs **recursion** to explore the vast space of possible solutions. However, not all recursive algorithms involve backtracking.
+
+Think of **recursion** as the mechanism that enables a function to call itself, and **backtracking** as a strategy where you make a choice and explore the possibilities.
+
+### Key Concepts
+
+- **Recursion**: Utilizes a divide-and-conquer approach, breaking the main problem into smaller, self-similar subproblems. Recursive calls work towards solving these subproblems, relying on defined base cases for termination.
+
+- **Backtracking**: Operates as an advanced form of recursion by building solutions incrementally. When a partial solution is deemed unsuitable, it "backtracks" to modify previous choices, ensuring an efficient traversal through the solution space.
+
+### Common Applications
+
+#### Recursion
+
+- **Tree Traversals**: Visiting all nodes in a tree, like in binary search trees.
+- **Divide and Conquer Algorithms**: Such as merge sort or quick sort.
+- **Dynamic Programming**: Solving problems like the coin change problem by breaking them down into smaller subproblems.
+
+#### Backtracking
+
+- **Puzzle Solvers**: Solving games like Sudoku or crossword puzzles.
+- **Combinatorial Problems**: Generating all permutations or combinations of a set.
+- **Decision-making Problems**: Such as the knapsack problem, where decisions are made on whether to include items.
+
+---
+
+## 🔹 4. What is the difference between _Backtracking_ and _Exhaustive Search_?
+
+### Answer
+
+Both **Backtracking** and **Exhaustive Search** aim to find solutions to computational problems by exploring the **entire solution space**.
+
+However, **backtracking** is more **selective**, often pruning parts of the search space based on certain criteria, making it potentially more efficient than an **exhaustive search** which systematically checks **every possible solution** without exception.
+
+### Key Distinctions
+
+- **Backtracking**: Incrementally creates solutions, evaluating viability at each step. Unviable paths lead the algorithm to revert and explore alternate paths.
+- **Exhaustive Search**: Produces all possible solutions first and only then checks each one's viability.
+
+### Example: Finding Subsets
+
+Consider the task of finding subsets from $\{1, 2, 3, 4, 5\}$ that sum up to 8.
+
+- **Exhaustive Search** would evaluate **every possible subset** to find those that sum to 8. Valid subsets include $\{1, 2, 5\}, \{1, 3, 4\}, \{2, 3, 4\}$ among others.
+
+- **Backtracking** begins with the first element and systematically adds subsequent elements. If the current subset's sum exceeds 8 or it's clear the sum cannot reach 8 with the remaining elements, it **backtracks** to try a different combination.
+
+### Efficiency
+
+- **Exhaustive Search**: Typically $O(2^n)$ time complexity and $O(n)$ space complexity—straightforward but often less efficient.
+
+- **Backtracking**: Generally offers improved time efficiency, with space complexity at $O(n)$.
+
+### Practical Applications
+
+#### Exhaustive Search
+
+-  **Password Cracking**: For simple passwords, an exhaustive search or "brute force" method tries every possible combination until the correct one is found.
+- **Traveling Salesman Problem (Small Datasets)**: For a limited number of cities, an exhaustive search can determine the shortest possible route by calculating every potential
+- **Game Solving (Limited Possibilities)**: In games like Tic-Tac-Toe, exhaustive search can evaluate all possible moves to determine the best outcome.
+
+#### Backtracking
+
+- **Sudoku Solvers**: Efficiently filling out a Sudoku board by trying numbers in each cell and reverting if a contradiction is found.
+- **Maze Solvers**: Finding a path from the start to the finish, trying different routes and backtracking when a dead-end is encountered.
+- **Graph Coloring**: Assigning colors to vertices of a graph so that no two adjacent vertices share the same color.
+
+---
+
+## 🔹 5. Explain the _Explicit_ and _Implicit_ backtracking constrains.
+
+### Answer
+
+👉🏼 Check out all 6 answers here: [Devinterview.io - Backtracking](https://devinterview.io/data/backtracking-interview-questions)
+
+---
+
+## 🔹 6. Find all _Permutations of a String_.
+
+### Answer
+
+👉🏼 Check out all 6 answers here: [Devinterview.io - Backtracking](https://devinterview.io/data/backtracking-interview-questions)
