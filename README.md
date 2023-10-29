@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Backtracking questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Backtracking Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Fbacktracking.png?alt=media&token=7bb8700a-3af0-42fe-97f1-be505dcf0019&_gl=1*axx75w*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA2NDE4LjYwLjAuMA..)
+![Backtracking Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Fbacktracking.png?alt=media&token=7bb8700a-3af0-42fe-97f1-be505dcf0019&_gl=1*1w9uxbp*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA3NDEyLjE0LjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Backtracking](https://devinterview.io/data/backtracking-interview-questions)
 
