@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Backtracking questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Backtracking Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/backtracking.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698599087&Signature=jlTV7iUsTtiTYrAv4Rx48a0v4Rj7vE61hho7KPCY71vFIXXmib%2BeFJ%2BGvt8VmNl%2F539SZPFeRpDYgClWlTpPLdLI%2B8CTiSJzLMOvkwc7fYGeh7cbVbnLAelBzfG1Hv1sG%2FDmw%2BmV%2BC2N%2FXc3nfuQmCiRYrmIS9C%2BEoPEVL5ffT%2FqHPy%2BBwMfYXLpIgypswit6yNUebm9X0chj4nmEIvuybtbJjvHQpc54PL1osQhaU7DrVK4iYTZVF1qkswW8nmoEdgQn7JW0FKT9qD7V%2FK5vcngxdyk6G4VPwims0%2FH5Ld%2FKoGBlH69HJ2YtctR%2BkI59uiFliVa6vhJJGrqXVRsSg%3D%3D)
+![Backtracking Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Fbacktracking.png?alt=media&token=7bb8700a-3af0-42fe-97f1-be505dcf0019&_gl=1*axx75w*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA2NDE4LjYwLjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Backtracking](https://devinterview.io/data/backtracking-interview-questions)
 
