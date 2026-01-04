@@ -1,4 +1,4 @@
-# 35 Essential Backtracking Algorithms Interview Questions in 2025
+# 35 Essential Backtracking Algorithms Interview Questions in 2026
 
 <div>
 <p align="center">
